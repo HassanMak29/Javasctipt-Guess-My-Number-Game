@@ -7,7 +7,7 @@ const message = document.querySelector(".message");
 const score = document.querySelector(".score-value");
 const highscore = document.querySelector(".highscore-value");
 
-secret.textContent = secretNum;
+// secret.textContent = secretNum;
 let scoreValue = 20;
 let highScoreValue = 0;
 
@@ -41,7 +41,7 @@ function check() {
 
 function again() {
   secretNum = Math.ceil(Math.random() * 20);
-  secret.textContent = secretNum;
+  // secret.textContent = secretNum;
   body.style.backgroundColor = "black";
   secret.style.width = "15rem";
   scoreValue = 20;
